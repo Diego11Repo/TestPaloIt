@@ -1,0 +1,22 @@
+.user-input {
+  height: 40px;
+  margin-top: 200px;
+
+  .label {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', Courier, monospace;
+
+    .alert {
+      color: red;
+    }
+
+    .input {
+      margin-top: 10px;
+      font-size: 30px;
+      border: none;
+      border-bottom: 1px solid gray;
+    }
+  }
+}

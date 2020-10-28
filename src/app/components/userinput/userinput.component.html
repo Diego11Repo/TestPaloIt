@@ -1,0 +1,12 @@
+<div class="user-input">
+  <div class="label">
+    {{ input.label }}
+    <p *ngIf="alert" class="alert">{{ input.alert }}</p>
+    <input
+      class="input"
+      (blur)="onBlur($event)"
+      minlength="14"
+      maxlength="16"
+    />
+  </div>
+</div>

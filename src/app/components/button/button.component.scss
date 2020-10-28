@@ -1,0 +1,12 @@
+.button-container {
+  display: flex;
+  margin-top: 100px;
+
+  button {
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 auto;
+  }
+}

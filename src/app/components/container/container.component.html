@@ -1,0 +1,7 @@
+<app-header></app-header>
+<app-userinput (emitNumber)="receiveNumber($event)"></app-userinput>
+<app-button
+  [number]="number"
+  (lastNumberEmitter)="receiveLastNumber($event)"
+></app-button>
+<app-luckynumber [lastNumber]="lastNumber"></app-luckynumber>
